@@ -10,6 +10,9 @@ const Login = () => {
                 <input type="password" placeholder="Password" className="w-full px-3 py-2 mb-3 border rounded"/>
                 <button className="w-full bg-[#4b858d] text-[#eae2d5] py-2 rounded hover:bg-[#112528]">Login</button>
             </form>
+            <div className="text-[#eae2d5] text-center text-sm mt-3">
+                <Link to="/forget-password" className="text-[#eae2d5]">Forget Password?</Link>
+            </div>
             <p className="text-[#eae2d5] text-center text-sm mt-3">Don't have an account?{""}
                 <Link to="/signup" className="text-[#eae2d5]"> Sign Up</Link>
             </p>
