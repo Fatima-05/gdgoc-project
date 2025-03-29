@@ -5,9 +5,10 @@ import Signup from "./pages/Signup";
 
 const App = () => {
   return (
-    <div className="bg-[#1c3a3e] flex justify-center items-center h-screen">
+    <div className="bg-[#549fa9] flex justify-center items-center h-screen">
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Login />}/>
+        <Route path="/signup" element={<Signup />}/>
       </Routes>
     </div>
   );
